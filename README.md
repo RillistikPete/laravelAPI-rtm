@@ -37,7 +37,7 @@ sites:
 ```
 This will allow you to serve the application on a specific IP in the browser with the name 'githubapp.test'
 
-##### Next steps if using XAMPP:
+##### Additional steps ONLY if using XAMPP:
 Navigate to
 ```/etc/apache2/httpd.conf```
 and uncomment '#Virtual Hosts'
