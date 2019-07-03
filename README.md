@@ -1,18 +1,18 @@
-#GitHub Repository Search
+# GitHub Repository Search
 
 This application uses the GitHub API to return and display repositories based on search criteria entered by the user. 
 Also shows summary of search results based on language and popularity.
 To get started, follow these steps:
 
-###Pre-requisites:
+### Pre-requisites:
 To run this application, you should have [Git](https://git-scm.com/downloads) installed.  Running Laravel locally requires [Laravel 5.8](https://laravel.com/docs/5.0/installation) the use of virtualization.  My machine is running [Vagrant v2.2.5](https://www.vagrantup.com/downloads.html).  I recommend using [Laravel/Homestead](https://laravel.com/docs/5.8/homestead) with [Virtual Box](https://www.virtualbox.org/wiki/Downloads). The benefit to using Homestead is that it does not require an update when your operating system is updated. Using XAMPP, for example, does.  Also install [Composer](https://getcomposer.org/download/) to have a dependency manager for Laravel.
 
-###Supplemental Configuration
+### Supplemental Configuration
 > Note: Instructions are for Mac only. See 
 > [Homestead for Windows](https://tutsforweb.com/installing-laravel-homestead-on-windows-step-by-step/) for more information.
-#####MAC:
+##### MAC:
 
-#####Add IP to hosts
+##### Add IP to hosts
 Navigate to
 ```/etc/hosts```
 Add your virtualization IP address to this file. Make sure it aligns properly with the other IPs. Name the IP "githubapp.test".
@@ -34,7 +34,7 @@ sites:
 ```
 This will allow you to serve the application on a specific IP in the browser with the name 'githubapp.test'
 
-#####Next steps if using XAMPP:
+##### Next steps if using XAMPP:
 Navigate to
 ```/etc/apache2/httpd.conf```
 and uncomment '#Virtual Hosts'
@@ -49,7 +49,7 @@ Create a virtual host tag for the app, providing the location of the app in your
 ```
 
 
-###To Clone:
+### To Clone:
 Navigate to the folder you specify in your Homestead.yaml file): Code / app-directory
 ```git clone <clone url>```
 
@@ -59,24 +59,24 @@ Navigate to your Homestead folder
 ```vagrant ssh```
 Open browser and type 'githubapp.test'
 
-####Alternative Setup
+#### Alternative Setup
 Navigate to the folder you specify in your Homestead.yaml file): Code / app-directory
 ```git clone <clone url>```
 
 ```php artisan serve```
 This will run the app locally on host server.
 
-##Instructions for Use:
+## Instructions for Use:
 You will be presented with the home page, where you can click the "Search Repos" button.
 This will take you to the repository search page.  Here, you can search repositories based on keywords/criteria that you type into the search bar.
-##### To search:
+#### To search:
 Type in your desired input and click "Search" button.
-##### To sort your search by code language:
+#### To sort your search by code language:
 Type in your desired input and click "Sort By Language Search" button.
-##### To sort your search by number of stars (greatest to least):
+#### To sort your search by number of stars (greatest to least):
 Type in your desired input and click "Sort By Stars" button.
 
-##### Note:
+#### Note:
 If you encounter an error, refresh the page and try again or try clicking again.  The async function may not have been triggered on your click.
 
 #### Example:
