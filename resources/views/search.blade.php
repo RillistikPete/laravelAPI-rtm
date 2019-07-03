@@ -141,11 +141,10 @@
                 if(i.language != null){
                 const table = `<table class="table table-hover">
                                 <thead>
-                                    <tr><th>Language</th><th>Number of Repos</th><th>Most Popular</th></tr>
+                                    <tr><th>Number of Repos</th><th>Most Popular Language</th></tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>${i.language}</td>
                                         <td>${data.total_count}</td>
                                         <td>${i.language}</td>
                                     </tr>
