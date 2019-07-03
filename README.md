@@ -62,6 +62,7 @@ Virtualization:
 Navigate to your Homestead folder in terminal
 
 ```vagrant up```
+
 ```vagrant ssh```
 
 Open browser and type 'githubapp.test'
@@ -88,7 +89,7 @@ Type in your desired input and click "Sort By Stars" button.
 #### Note:
 If you encounter an error, refresh the page and try again or try clicking again.  The async function may not have been triggered on your click.
 
-#### Example:
+## Fun Example:
 Type the word "interesting" into the search bar. Click "Sort By Stars" button.  See the results :)
 
 
