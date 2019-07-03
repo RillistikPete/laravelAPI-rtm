@@ -1,7 +1,8 @@
 # GitHub Repository Search
 
 This application uses the GitHub API to return and display repositories based on search criteria entered by the user. 
-Also shows summary of search results based on language and popularity.
+It can show the most popular language and the number of repos written in that language.  It can also search and sort repositories by the number of stars in descending order.
+
 To get started, follow these steps:
 
 ### Pre-requisites:
