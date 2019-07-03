@@ -146,7 +146,7 @@
                                 <tbody>
                                     <tr>
                                         <td>${i.language}</td>
-                                        <td>${data.items.length}</td>
+                                        <td>${data.total_count}</td>
                                         <td>${i.language}</td>
                                     </tr>
                                     </tbody>
