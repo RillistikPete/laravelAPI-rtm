@@ -40,6 +40,7 @@ This will allow you to serve the application on a specific IP in the browser wit
 Navigate to
 ```/etc/apache2/httpd.conf```
 and uncomment '#Virtual Hosts'
+
 Navigate to and edit
 ```/etc/apache2/extra/httpd-vhosts.conf```
 Create a virtual host tag for the app, providing the location of the app in your Homestead directory:
@@ -52,12 +53,12 @@ Create a virtual host tag for the app, providing the location of the app in your
 
 
 ### To Clone:
-Navigate to the folder you specify in your Homestead.yaml file:  (Code / app-directory)
+Navigate in terminal to the folder you specify in your Homestead.yaml file:  (Code / app-directory)
 
 ```git clone <clone url>```
 
 Virtualization:
-Navigate to your Homestead folder in terminal
+In the same directory:
 
 ```vagrant up```
 
