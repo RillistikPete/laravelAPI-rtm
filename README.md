@@ -15,7 +15,9 @@ To run this application, you should have [Git](https://git-scm.com/downloads) in
 
 ##### Add IP to hosts
 Navigate to
-```/etc/hosts```
+
+```/etc/hosts``` in terminal.
+
 Add your virtualization IP address to this file. Make sure it aligns properly with the other IPs. Name the IP "githubapp.test".
 
 Navigate to the directory where you installed Homestead and type:
