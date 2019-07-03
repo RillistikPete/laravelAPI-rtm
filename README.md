@@ -11,12 +11,10 @@ To run this application, you should have [Git](https://git-scm.com/downloads) in
 ### Supplemental Configuration
 > Note: Instructions are for Mac only. See 
 > [Homestead for Windows](https://tutsforweb.com/installing-laravel-homestead-on-windows-step-by-step/) for more information.
-##### MAC:
 
-##### Add IP to hosts
-Navigate to
+### Add IP to hosts
 
-```/etc/hosts``` in terminal.
+Navigate to ```/etc/hosts``` in terminal.
 
 Add your virtualization IP address to this file. Make sure it aligns properly with the other IPs. Name the IP "githubapp.test".
 
