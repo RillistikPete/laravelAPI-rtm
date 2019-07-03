@@ -22,6 +22,7 @@ Add your virtualization IP address to this file. Make sure it aligns properly wi
 
 Navigate to the directory where you installed Homestead and type:
 ```ls -la```
+
 Make sure your -vagrant.d user is your username, not "root", or you will not have permissions.
 
 Open and edit your Homestead.yaml file:
@@ -53,20 +54,25 @@ Create a virtual host tag for the app, providing the location of the app in your
 
 
 ### To Clone:
-Navigate to the folder you specify in your Homestead.yaml file): Code / app-directory
+Navigate to the folder you specify in your Homestead.yaml file:  (Code / app-directory)
+
 ```git clone <clone url>```
 
 Virtualization:
-Navigate to your Homestead folder
+Navigate to your Homestead folder in terminal
+
 ```vagrant up```
 ```vagrant ssh```
+
 Open browser and type 'githubapp.test'
 
 #### Alternative Setup
-Navigate to the folder you specify in your Homestead.yaml file): Code / app-directory
+Navigate to the folder you specify in your Homestead.yaml file:  (Code / app-directory)
+
 ```git clone <clone url>```
 
 ```php artisan serve```
+
 This will run the app locally on host server.
 
 ## Instructions for Use:
@@ -86,5 +92,5 @@ If you encounter an error, refresh the page and try again or try clicking again.
 Type the word "interesting" into the search bar. Click "Sort By Stars" button.  See the results :)
 
 
-Please contact me for questions: 
+Please contact me for questions: [petegavin.co](http://petegavin.co/)
 
