@@ -102,7 +102,7 @@
                 divResultSing.appendChild(username);
                 divResultSing.appendChild(description);
                 divResultSing.appendChild(stars);
-                divResultSing.appendChild(document.createElement("br"));
+                divResultSing.appendChild(document.createElement("hr"));
             })
             return data;
         }
@@ -137,7 +137,7 @@
                 divResult.appendChild(description);
                 divResult.appendChild(lang);
                 divResult.appendChild(stars);
-                divResult.appendChild(document.createElement("br"));
+                divResult.appendChild(document.createElement("hr"));
                 if(i.language != null){
                 const table = `<table class="table table-hover">
                                 <thead>
@@ -183,7 +183,7 @@
                 divResultSing.appendChild(username);
                 divResultSing.appendChild(description);
                 divResultSing.appendChild(stars);
-                divResultSing.appendChild(document.createElement("br"));
+                divResultSing.appendChild(document.createElement("hr"));
             })
             return data;
         }
