@@ -13,15 +13,11 @@ return [
     | to have a conventional place to find your various credentials.
     |
 
-Client ID: Iv1.c3e9be124417de5b
-
-Client secret: 5c6fe707c0b932d4db6b328b8073e40cb5293796
-
 
     */
 
     'github' => [ 
-        'token' => 'e13ab80aded8c7659f3fa3090f93b9ac94c939d6'
+        'token' => ''
     ],
 
     'mailgun' => [
