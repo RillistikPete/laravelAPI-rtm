@@ -85,12 +85,9 @@ Type in your desired input and click "Sort By Language Search" button.
 #### To sort your search by number of stars (greatest to least):
 Type in your desired input and click "Sort By Stars" button.
 
-#### Note:
-If you encounter an error, refresh the page and try again.  The async function may not have been triggered on your click.
-
 ## Fun Example:
-Type the word "interesting" into the search bar. Click "Sort By Stars" button.  See the results :)
+Type into the search bar. Click "Sort By Stars" button.  See your results :)
 
 
-Please contact me for questions: [petegavin.co](http://petegavin.co/)
+Please contact me for questions: [gavinfkp.com](https://gavinfpk.com/)
 
